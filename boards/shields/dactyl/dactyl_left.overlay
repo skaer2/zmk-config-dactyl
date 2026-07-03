@@ -1,0 +1,18 @@
+#include "dactyl.dtsi" // The shared dtsi file is included in the overlay
+#include "dactyl-layouts.dtsi"
+
+&physical_layout0 {
+    kscan = <&kscan0>; // Label of the kscan node this layout uses
+    transform = <&default_transform>; // Label of the matrix transform this layout uses
+};
+
+// Label of the kscan node in the dtsi
+&kscan0 {
+    col-gpios
+        = <&gpio0 24 GPIO_ACTIVE_HIGH>
+        , <&gpio1 0 GPIO_ACTIVE_HIGH>
+		, <&gpio0 11 GPIO_ACTIVE_HIGH>
+		, <&gpio1 4 GPIO_ACTIVE_HIGH>
+		, <&gpio1 6 GPIO_ACTIVE_HIGH>
+        ;
+};

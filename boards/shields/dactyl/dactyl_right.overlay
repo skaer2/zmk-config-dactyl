@@ -1,0 +1,12 @@
+#include "dactyl.dtsi" // The shared dtsi file is included in the overlay
+#include "dactyl-layouts.dtsi"
+
+
+&physical_layout0 {
+    kscan = <&kscan0>; // Label of the kscan node this layout uses
+    transform = <&default_transform>; // Label of the matrix transform this layout uses
+};
+
+&default_transform { // Offset of 5 because the left side has 5 columns
+    col-offset = <5>;
+};
