@@ -1,7 +1,7 @@
 #include <physical_layouts.dtsi>
 
 / {
-    dactyl_physical_layout: dactyl_physical_layout {
+    physical_layout0: physical_layout0 {
         compatible = "zmk,physical-layout";
         display-name = "dactyl manuform";
         transform = <&default_transform>;
@@ -57,10 +57,5 @@
     };
 
 };
-/ {
-    physical_layout0: physical_layout_0 {
-        compatible = "zmk,physical-layout";
-        display-name = "Default Layout";
-    };
-};
+
 
