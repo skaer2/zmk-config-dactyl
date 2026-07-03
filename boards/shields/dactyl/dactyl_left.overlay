@@ -1,5 +1,5 @@
 #include "dactyl.dtsi" // The shared dtsi file is included in the overlay
-#include "dactyl-layouts.dtsi"
+//#include "dactyl-layouts.dtsi"
 
 &physical_layout0 {
     kscan = <&kscan0>; // Label of the kscan node this layout uses
