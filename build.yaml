@@ -19,6 +19,6 @@
 #
 ---
 include:
-    - board: promicro_nrf52840
+    - board: nice_nano
       shield: dactyl
       
