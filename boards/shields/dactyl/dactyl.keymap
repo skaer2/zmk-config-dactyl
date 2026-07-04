@@ -4,6 +4,8 @@
  * SPDX-License-Identifier: MIT
  */
 
+
+
 #include <behaviors.dtsi>
 #include <dt-bindings/zmk/keys.h>
 #include <dt-bindings/zmk/bt.h>
@@ -35,25 +37,25 @@
                 lower_layer {
                         display-name = "Lower Layer";
 						bindings = <
-   &kp Y &kp W &kp E &kp R &kp T  					 &kp Y &kp U  &kp I     &kp O   &kp P    
-   &bt BT_CLR &bt BT_SEL 0 &bt BT_SEL 11 &kp F &kp G  					 &kp H &kp J  &kp K     &kp L   &kp SEMI 
-   &kp Z &kp X &kp C &kp V &kp B  				 	 &kp N &kp M  &kp COMMA &kp DOT &kp FSLH 
-         &kp 1 &kp 2             						      &kp 9     &kp RALT
-						   &kp 3 &kp 4	   		&kp 2 &kp RCTRL
-						   &kp 5 &kp 6      	&kp 2 &kp GUI
-						   &kp 7 &kp 8      	&kp 2 &kp RSHIFT>;
+   &kp Q &kp W &kp E &kp R &kp T  						 &kp Y &kp U  &kp I     &kp O   &kp P    
+   &kp A &kp S &kp D &kp F &kp G  						 &kp H &kp J  &kp K     &kp L   &kp SEMI 
+   &kp Z &kp X &kp C &kp V &kp B  					 	 &kp N &kp M  &kp COMMA &kp DOT &kp FSLH 
+         &kp N1 &kp N2 &kp N3 &kp N4  				      &kp 9     &kp RALT &kp 2 &kp RCTRL
+		 &kp N6 &kp N5 &mo 1  &mo 2				   	   		&kp 2 &kp GUI &kp 2 &kp RSHIFT
+						        	
+						    
                 };
 
                 raise_layer {
                         display-name = "Raise Layer";
 						bindings = <
-   &kp U &kp W &kp E &kp R &kp T  					 &kp Y &kp U  &kp I     &kp O   &kp P    
-   &kp A &kp S &kp D &kp F &kp G  					 &kp H &kp J  &kp K     &kp L   &kp SEMI 
-   &kp Z &kp X &kp C &kp V &kp B  				 	 &kp N &kp M  &kp COMMA &kp DOT &kp FSLH 
-         &kp 1 &kp 2             						      &kp 9     &kp RALT
-						   &kp 3 &kp 4	   		&kp 2 &kp RCTRL
-						   &kp 5 &kp 6      	&kp 2 &kp GUI
-						   &kp 7 &kp 8      	&kp 2 &kp RSHIFT>;
+   &kp Q &kp W &kp E &kp R &kp T  						 &kp Y &kp U  &kp I     &kp O   &kp P    
+   &kp A &kp S &kp D &kp F &kp G  						 &kp H &kp J  &kp K     &kp L   &kp SEMI 
+   &kp Z &kp X &kp C &kp V &kp B  					 	 &kp N &kp M  &kp COMMA &kp DOT &kp FSLH 
+         &kp N1 &kp N2 &kp N3 &kp N4  				      &kp 9     &kp RALT &kp 2 &kp RCTRL
+		 &kp N6 &kp N5 &mo 1  &mo 2				   	   		&kp 2 &kp GUI &kp 2 &kp RSHIFT
+						        	
+						    
                 };
         };
 };
