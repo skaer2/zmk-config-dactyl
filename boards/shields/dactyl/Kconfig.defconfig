@@ -21,8 +21,6 @@ config ZMK_SPLIT
 
 endif
 
-
-
 if SHIELD_DACTYL_DONGLE
 
 # Max 16 characters in keyboard name
