@@ -21,11 +21,11 @@
 include:
     - board: nice_nano
       shield: dactyl_left
-  #     cmake-args: -DCONFIG_ZMK_SPLIT=y -DCONFIG_ZMK_SPLIT_ROLE_CENTRAL=n
+      cmake-args: -DCONFIG_ZMK_SPLIT=y -DCONFIG_ZMK_SPLIT_ROLE_CENTRAL=n
     - board: nice_nano
       shield: dactyl_right
-  #    cmake-args: -DCONFIG_ZMK_SPLIT=y -DCONFIG_ZMK_SPLIT_ROLE_CENTRAL=n
-   # - board: nice_nano
-    #  shield: dactyl_dongle  
-   # - board: nice_nano
-    #    shield: settings_reset  
+      cmake-args: -DCONFIG_ZMK_SPLIT=y -DCONFIG_ZMK_SPLIT_ROLE_CENTRAL=n
+    - board: nice_nano
+      shield: dactyl_dongle  
+    - board: nice_nano
+      shield: settings_reset  
