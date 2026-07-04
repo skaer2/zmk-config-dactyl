@@ -25,7 +25,7 @@ if SHIELD_DACTYL_DONGLE
 
 # Max 16 characters in keyboard name
 config ZMK_KEYBOARD_NAME
-    default "dactyl dongle"
+    default "DACTYL"
 
 config ZMK_SPLIT_ROLE_CENTRAL
     default y
