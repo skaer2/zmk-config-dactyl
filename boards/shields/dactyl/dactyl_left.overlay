@@ -5,4 +5,8 @@
     transform = <&default_transform>; // Label of the matrix transform this layout uses
 };
 
+&studio_rpc_usb_uart {
+    status = "okay";
+};
+
 //&kscan0 {};
